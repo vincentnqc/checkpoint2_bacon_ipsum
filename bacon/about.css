@@ -165,3 +165,26 @@
     padding-top: 65px;
     padding-left: 500px;
   }
+
+  @media only screen and (max-width: 600px) {
+  
+    body {
+      background-color: lightblue;
+    }
+  
+    nav {
+      flex-direction: row;
+      height: 20%;
+      align-items: flex-start;
+    }
+  
+    .nav {
+      flex-direction: column;
+      height: 75px;
+      width: 75px;
+    }
+  
+    .border1 {
+      border: none;
+    }
+  }
