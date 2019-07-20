@@ -12,12 +12,18 @@
     align-items: center;
     justify-content: space-between;
     padding: 40px;
+    opacity: 0.8;
+    background-image: url(./heman.jfif);
   }
 
   .gnomeface {
 
   }
   
+  .z {
+    opacity: 0.8;
+  }
+
   .ziz {
     text-align: center;
     font-size: 25px;
@@ -139,11 +145,15 @@
     background-image: url(./gnomeface.jfif);
     height: 300px;
     background-repeat: no-repeat;
+    background-size: 1800px 300px;
     font-family: sans-serif;
     font-weight: bold;
     border: solid black;
     margin-bottom: 20px;
     margin-top: 20px;
+    padding-top: 240px;
+    color: black;
+    text-align: center;
   }
   
   .experts {
@@ -155,16 +165,15 @@
   .grid-container {
     display: grid;
     grid-template-columns: 1fr, 1fr, 1fr, 1fr;
-    grid-template-rows: 1fr, 1fr;
+    grid-template-rows: 1fr;
     grid-template-areas: 
-    "a b c d"
-    "e f g h";
-    height:405px;
+    "a b c d";
+    height: 200px;
   }
   
   .grid-item {
     height: 200px;
-    width: 200px
+    width: 200px;
   }
   
   .grid1 {
@@ -173,51 +182,28 @@
     background-size: 200px 200px;
     border: solid black;
   }
-  
-/* for some reason these fucking pics wont show up */
 
   .grid2 {
-    background-image: url(./grid2.jpg);
+    background-image: url(./cockmongler.jpg);
     background-repeat: no-repeat;
     background-size: 200px 200px;
     border: solid black;
   }
   
   .grid3 {
-    background-image: url(./grid3.jpg);
+    background-image: url(./datboi.jpg);
     background-repeat: no-repeat;
     background-size: 200px 200px;
     border: solid black;
   }
   
   .grid4 {
-    background-image: url(./grid4.jpg);
+    background-image: url(./alone.png);
     background-repeat: no-repeat;
     background-size: 200px 200px;
     border: solid black;
   }
-  
-  .grid5 {
-    font-family: sans-serif;
-    font-weight: bold;
-  }
-  
-  .grid6 {
-    font-family: sans-serif;
-    font-weight: bold;
-  }
-  
-  .grid7 {
-    font-family: sans-serif;
-    font-weight: bold;
-  }
-  
-  .grid8 {
-    font-family: sans-serif;
-    font-weight: bold;
-  }
-  
-  .a {
+    .a {
     grid-area: a;
     margin-left: 100px;
     }
@@ -233,23 +219,6 @@
     .d {
     grid-area: d;
     }
-  
-    .e {
-      grid-area: e;
-      margin-left: 100px;
-      }
-     
-    .f {
-      grid-area: f;
-      }
-     
-    .g {
-      grid-area: g;
-      }
-      
-    .h {
-      grid-area: h;
-      }
   
       .grid-containerbottom {
         grid-template-columns: 1fr, 1fr;
@@ -317,11 +286,39 @@
           padding-left: 500px;
         }
 
-        @media only screen and (max-width: 600px) {
-  
-          body {
-            background-color: lightblue;
+        @media only screen and (max-width: 1120px) {
+
+          .grid-container {
+            display: grid;
+            grid-template-columns: 1fr, 1fr; 
+            grid-template-rows: 1fr, 1fr;
+            grid-template-areas: 
+            "a b"
+            "c d";
+            height: 200px;
           }
+  
+          .righta {
+            margin-top: 240px;
+          }
+
+          .lefta {
+            display: none;
+          }
+
+          .c {
+            margin-left: 100px;
+            margin-top: 20px;
+          }
+
+          .d {
+            margin-top: 20px;
+          }
+
+        }
+
+        @media only screen and (max-width: 600px) {
+
         
           nav {
             flex-direction: row;
@@ -342,10 +339,21 @@
       }
 
       footer {
-        height: 150px;
-        width: 600px;
-        text-align: center;
+        display: none;
       }
       
+      .bighead {
+        background-size: contain;
+        color: black;
+      }
+
+      .a {
+        margin-left: 30px;
+      }
+
+      .c {
+        margin-left: 30px;
+      }
+       
         }
 
