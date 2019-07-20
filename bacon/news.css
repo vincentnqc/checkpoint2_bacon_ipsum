@@ -2,6 +2,7 @@
   border: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Kalam', cursive;
   }
   
   header {
@@ -12,11 +13,12 @@
     align-items: center;
     justify-content: space-between;
     padding: 40px;
+    opacity: 0.8;
+    background-image: url(./heman.jfif);
   }
 
 
   .news {
-    background-image: url(./great-hairstyle1.jpg);
     height: 300px;
     background-repeat: no-repeat;
     font-family: sans-serif;
@@ -175,10 +177,6 @@
 
   @media only screen and (max-width: 600px) {
   
-    body {
-      background-color: lightblue;
-    }
-  
     nav {
       flex-direction: row;
       height: 20%;
@@ -197,4 +195,7 @@
   font-size: 15px;
 }
 
+footer {
+  display: none;
+}
   }
