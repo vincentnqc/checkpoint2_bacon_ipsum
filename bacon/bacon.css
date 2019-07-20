@@ -29,8 +29,6 @@
     text-align: center;
     font-size: 25px;
     color: white;
-    font-family: sans-serif;
-    font-weight: bold;
   }
   
   .nav {
@@ -41,9 +39,8 @@
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
-    font-family: sans-serif;
-    font-weight: bold;
     width: 800px;
+    opacity: 0.8;
   }
   
   .button1 {
@@ -59,8 +56,6 @@
     background-color: white;
     opacity: 0.9;
     color: black;
-    font-family: sans-serif;
-    font-weight: bold;
   }
   
   .button2 {
@@ -77,8 +72,6 @@
     background-color: white;
     opacity: 0.9;
     color: black;
-    font-family: sans-serif;
-    font-weight: bold;
   }
   
   .button3 {
@@ -95,8 +88,6 @@
     background-color: white;
     opacity: 0.9;
     color: black;
-    font-family: sans-serif;
-    font-weight: bold;
   }
 
   .button4 {
@@ -113,27 +104,8 @@
     background-color: white;
     opacity: 0.9;
     color: black;
-    font-family: sans-serif;
-    font-weight: bold;
   }
   
-  .button5 {
-    background-color: black;
-    color: white;
-    padding: 5px 15px;
-    text-align: center;
-    display: inline-block;
-    font-size: 18px;
-    border-radius: 7px;
-  }
-
-  .button5:hover {
-    background-color: white;
-    opacity: 0.9;
-    color: black;
-    font-family: sans-serif;
-    font-weight: bold;
-  }
   
   .z {
     height: 100px;
@@ -147,8 +119,6 @@
     height: 300px;
     background-repeat: no-repeat;
     background-size: 1800px 300px;
-    font-family: sans-serif;
-    font-weight: bold;
     border: solid black;
     margin-bottom: 20px;
     margin-top: 20px;
@@ -160,7 +130,7 @@
   .experts {
     margin-left: 500px;
     padding-top: 100px;
-    font-size: 45px
+    font-size: 45px;
   }
   
   .grid-container {
@@ -241,9 +211,7 @@
         padding-top: 15px;
         padding-left: 20px;
         padding-right: 20px;
-        font-family: sans-serif;
-        font-weight: bold;
-        font-size: 15px
+        font-size: 15px;
         }
        
         .righta {
@@ -316,6 +284,7 @@
             margin-top: 20px;
           }
 
+
         }
 
         @media only screen and (max-width: 600px) {
@@ -355,6 +324,6 @@
       .c {
         margin-left: 30px;
       }
-       
+      
         }
 

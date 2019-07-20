@@ -38,8 +38,6 @@
     text-align: center;
     font-size: 25px;
     color: whitesmoke;
-    font-family: sans-serif;
-    font-weight: bold;
   }
   
   .nav {
@@ -50,8 +48,6 @@
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
-    font-family: sans-serif;
-    font-weight: bold;
     width: 800px;
   }
   
@@ -69,8 +65,6 @@
     background-color: white;
     opacity: 0.9;
     color: black;
-    font-family: sans-serif;
-    font-weight: bold;
   }
   
   .button2 {
@@ -87,8 +81,6 @@
     background-color: white;
     opacity: 0.9;
     color: black;
-    font-family: sans-serif;
-    font-weight: bold;
   }
   
   .button3 {
@@ -105,8 +97,6 @@
     background-color: white;
     opacity: 0.9;
     color: black;
-    font-family: sans-serif;
-    font-weight: bold;
   }
 
   .button4 {
@@ -123,27 +113,8 @@
     background-color: white;
     opacity: 0.9;
     color: black;
-    font-family: sans-serif;
-    font-weight: bold;
   }
   
-  .button5 {
-    background-color: black;
-    color: white;
-    padding: 5px 15px;
-    text-align: center;
-    display: inline-block;
-    font-size: 18px;
-    border-radius: 7px;
-  }
-
-  .button5:hover {
-    background-color: white;
-    opacity: 0.9;
-    color: black;
-    font-family: sans-serif;
-    font-weight: bold;
-  }
   
   .z {
     height: 100px;
@@ -175,6 +146,14 @@
     padding-left: 500px;
   }
 
+  @media only screen and (max-width: 1120px) {
+  
+    .newstext {
+      font-size: 20px;
+    }
+  
+  }
+
   @media only screen and (max-width: 600px) {
   
     nav {
@@ -197,5 +176,10 @@
 
 footer {
   display: none;
+}
+
+
+.newstext {
+  font-size: 20px;
 }
   }
