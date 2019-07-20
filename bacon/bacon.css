@@ -268,11 +268,12 @@
         margin-right: 40px;
         margin-top: 20px;
         border: solid black;
-        background-image: url(./lady.jpg);
-        background-repeat: no-repeat;
         padding-top: 30px;
         padding-left: 20px;
         padding-right: 20px;
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 15px
         }
        
         .righta {
@@ -287,6 +288,7 @@
         color: white;
         padding-top: 50px;
         padding-left: 10px;
+        padding-right: 10px;
         }
        
         .rightb {
@@ -295,7 +297,7 @@
         width: 400px;
         border: solid black;
         padding-left: 40PX;
-        padding-top: 50px;
+        padding-top: 40px;
         padding-right: 15px;
         color: white;
         background-color: black;
@@ -337,6 +339,12 @@
       .but {
         height: 20px;
         font-size: 15px;
+      }
+
+      footer {
+        height: 150px;
+        width: 600px;
+        text-align: center;
       }
       
         }
