@@ -5,13 +5,17 @@
   }
   
   header {
-    background-color: #38B2A5;
-    height: 150px;
+    background-color: grey;
+    height: 170px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 40px;
+  }
+
+  .gnomeface {
+
   }
   
   .ziz {
@@ -131,13 +135,13 @@
     
   }
   
-  .greathairstyle {
-    background-image: url(./great-hairstyle1.jpg);
+  .bighead {
+    background-image: url(./gnomeface.jfif);
     height: 300px;
     background-repeat: no-repeat;
     font-family: sans-serif;
     font-weight: bold;
-    border: solid #38B2A5;
+    border: solid black;
     margin-bottom: 20px;
     margin-top: 20px;
   }
@@ -159,37 +163,38 @@
   }
   
   .grid-item {
-    
     height: 200px;
     width: 200px
   }
   
   .grid1 {
-    background-image: url(./grid1.jpg);
+    background-image: url(./ass.jfif);
     background-repeat: no-repeat;
     background-size: 200px 200px;
-    border: solid #38B2A5;
+    border: solid black;
   }
   
+/* for some reason these fucking pics wont show up */
+
   .grid2 {
     background-image: url(./grid2.jpg);
     background-repeat: no-repeat;
     background-size: 200px 200px;
-    border: solid #38B2A5;
+    border: solid black;
   }
   
   .grid3 {
     background-image: url(./grid3.jpg);
     background-repeat: no-repeat;
     background-size: 200px 200px;
-    border: solid #38B2A5;
+    border: solid black;
   }
   
   .grid4 {
     background-image: url(./grid4.jpg);
     background-repeat: no-repeat;
     background-size: 200px 200px;
-    border: solid #38B2A5;
+    border: solid black;
   }
   
   .grid5 {
@@ -262,10 +267,10 @@
         width: 450px;
         margin-right: 40px;
         margin-top: 20px;
-        border: solid #38B2A5;
+        border: solid black;
         background-image: url(./lady.jpg);
         background-repeat: no-repeat;
-        padding-top: 100px;
+        padding-top: 30px;
         padding-left: 20px;
         padding-right: 20px;
         }
@@ -275,8 +280,8 @@
         height: 250px;
         width: 400px;
         margin-top: 20px;
-        border: solid #38B2A5;
-        background-color: #38B2A5;
+        border: solid black;
+        background-color: black;
         font-family: sans-serif;
         font-weight: bold;
         color: white;
@@ -288,24 +293,23 @@
         grid-area: rightb;
         height: 200px;
         width: 400px;
-        border: solid #38B2A5;
-        background-image: url(./skinhead.png);
-        background-repeat: no-repeat;
-        padding-left: 200px;
+        border: solid black;
+        padding-left: 40PX;
         padding-top: 50px;
         padding-right: 15px;
         color: white;
-        background-color: #38B2A5;
+        background-color: black;
         font-family: sans-serif;
         font-weight: bold;
+        font-size: 30px;
         }
   
         footer {
-          border: solid #38B2A5;
+          border: solid black;
           height: 150px;
           width: 100%;
           margin-top: 50PX;
-          background-color: #38B2A5;
+          background-color: black;
           color: white;
           padding-top: 65px;
           padding-left: 500px;
