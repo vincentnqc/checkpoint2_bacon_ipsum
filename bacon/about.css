@@ -17,10 +17,15 @@
     background-image: url(./heman.jfif);
   }
   
+  .z {
+    opacity: 0.8;
+  }
+
   .ziz {
     text-align: center;
     font-size: 25px;
     color: whitesmoke;
+    opacity: 0.8;
   }
   
   .nav {
@@ -34,6 +39,7 @@
     font-family: sans-serif;
     font-weight: bold;
     width: 800px;
+    opacity: 0.8;
   }
   
   .button1 {

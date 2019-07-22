@@ -33,11 +33,15 @@
     padding-top: 40px;
   }
   
+  .z {
+    opacity: 0.8;
+  }
   
   .ziz {
     text-align: center;
     font-size: 25px;
     color: whitesmoke;
+    opacity: 0.8;
   }
   
   .nav {
@@ -49,6 +53,7 @@
     display: flex;
     justify-content: space-evenly;
     width: 800px;
+    opacity: 0.8;
   }
   
   .button1 {
